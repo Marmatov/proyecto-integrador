@@ -3,18 +3,20 @@ import readchar
 
 numero = 0
 
-def contador():
-    global suma_a
-    suma_a=numero+1
 
-while True:
-    contador()
-    
-    k = readchar.readkey()
-    if k == "n":
-        numero=suma_a
+def terminal():
     os.system('cls' if os.name=='nt' else 'clear')
     print(numero)
+
+
+while True:
+    global sumaa
+    sumaa = numero+1
+    k = readchar.readkey()
+    if k == "n":
+        numero =sumaa
     if numero ==50:
         break
+    terminal()
+        
     
