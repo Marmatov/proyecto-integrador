@@ -1,0 +1,9 @@
+import readchar
+
+    
+while True:
+    print("Presiona 🡩 para detenerse")
+    k = readchar.readkey()
+    if k == readchar.key.UP:
+        break
+    print("se ha detenido")
