@@ -1,2 +1,2 @@
-nombre=str(input("por favor introduzca su nombre:"))
+nombre=(input("por favor introduzca su nombre:"))
 print("bienvenido al laberinto",nombre )
